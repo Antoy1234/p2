@@ -28,8 +28,8 @@ export default function Tech({
         <div id='' className='flex flex-col justify-center items-center  my-16 space-y-2 w-full'>
             <div className='max-w-[1440px] lg:px-0 px-6 w-full text-white flex flex-col space-y-4'>
 
-                <div className='text-5xl font-bold'>Current technologies</div>
-                <div className='text-xl text-white/30'>I'm profficicient in a range of modern technologies that empower me to build highly functional solutions. <br /> These are some of my main technologies</div>
+                <div className='text-5xl font-bold text-green-400'>Current technologies</div>
+                <div className='text-xl text-white/50'>I'm profficicient in a range of modern technologies that empower me to build highly functional solutions. <br /> These are some of my main technologies</div>
                 <div className='flex max-w-[1440px] w-full'>
                     <InfoGrid gridinfo={featuredata} />
 

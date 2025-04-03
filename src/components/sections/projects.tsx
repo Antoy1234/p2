@@ -27,8 +27,8 @@ export default function Projects({
         <div id='projects' className='flex flex-col justify-center items-center  my-16 space-y-2 w-full'>
             <div className='max-w-[1440px] lg:px-2 px-6  w-full text-white flex flex-col space-y-4'>
 
-                <div className='text-5xl font-bold'>Projects & Experiences</div>
-                <div className='text-xl text-white/30'>Throughout my years I have built multiple applications. <br /> These are my biggest projects</div>
+                <div className='text-5xl font-bold text-purple-400'>Projects & Experiences</div>
+                <div className='text-xl text-white/50'>Throughout my years I have built multiple applications. <br /> These are my biggest projects</div>
                 <div className='flex max-w-[1440px] w-full'>
                     <ProjectGrid gridinfo={projectdata} />
 

@@ -10,6 +10,7 @@ import Projects from './sections/projects'
 import Loading from './sections/loader'
 import DiamondCursor from './sections/diamondCursor'
 import Footer from './sections/footer'
+import About from './sections/about'
 
 export default function Landing({
     language = "en"
@@ -37,6 +38,8 @@ export default function Landing({
                 {isLoading ? null : <MainHero />}
                 {isLoading ? null : <Tech />}
                 {isLoading ? null : <Projects />} 
+                {isLoading ? null : <About />} 
+
                 {isLoading ? null : <Footer />} 
 
             </div>
