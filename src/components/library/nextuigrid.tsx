@@ -14,7 +14,7 @@ export default function InfoGrid(props: any) {
                     <motion.div key={index} className="flex m-2 w-auto rounded-lg bg-[#131316] h-20 shadow-lg blurrybg  z-20 items-center justify-center  select-none shadow-white/5  hover:shadow-white/10"
                         animate={{ y: 0, opacity: 1 }}
                         initial={{ y: 100, opacity: 0 }}
-                        transition={{ duration: 0.5, delay: item.delay }}
+                        transition={{ duration: 0.5 }}
                         >
                        <div className={`h-full w-3/12 min-w-20  p-4 flex items-center `} >
                             <Image src={item.image} className={` bg-opacity-10 rounded-lg p-2 h-12 w-12 `} style={{backgroundColor: item.color, }}></Image>
